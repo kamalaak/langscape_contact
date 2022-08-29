@@ -20,27 +20,8 @@ let messageerror = document.getElementById('messageerror');
 
 
 
-
-// form.addEventListener('submit', (e) => {
    
-//         if (username.value.length === 0) {
-            
-//             name_error.innerHTML = "this field is required";
-//             return false;
 
-            
-//         } if (email.value > 0 ) {
-           
-//             emailerror.innerHTML = "this field is required";
-//             return false;
-//         } if (message.value > 0){
-//             e.preventDefault();
-//             messageerror.innerHTML = "this fiels is require";
-//             return false;
-//         }
-       
-            
-// });
 
 function validate() {
     if (username.value.length === 0) {
